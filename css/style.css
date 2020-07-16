@@ -214,3 +214,56 @@ p {
   }
 
 }
+
+/* Section download styles */
+.download-card {
+  margin-bottom: 1em;
+}
+
+.download-content {
+  background-color: #fff;
+}
+
+.download-content a {
+  background-color: #000;
+  color: #fff;
+  padding: 1em 2em;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.download-content a i {
+  font-size: 2.5em;
+}
+
+.download-info {
+  padding: 1em 2em;
+}
+
+.download-info h4 {
+  margin: 0;
+}
+
+.download-cast p {
+  margin: 0;
+  font-size: .9em;
+}
+
+.download-cast img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.download-rating {
+  background-color: #f6d200;
+  padding: 1em 2em;
+  color: #000;
+  font-size: .9em;
+}
+
+.download-rating .rate {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: -.25em;
+}
