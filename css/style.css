@@ -196,3 +196,21 @@ p {
 .watch-content a:hover {
   color: #f6d200;
 }
+
+@media screen and (min-width: 810px) {
+
+  .watch-card {
+    display: flex;
+  }
+
+  .watch-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .img-right {
+    order: 2;
+  }
+
+}
