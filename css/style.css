@@ -16,7 +16,7 @@ body {
 }
 
 header, footer {
-  background: rgb(0, 128, 0);
+  background: #000;
   height: 100px; 
 }
 
@@ -42,4 +42,49 @@ p {
   .sidebar-right {
     flex: 0 0 320px;
   }
+}
+
+/* Header styles */
+.site-header {
+  height: 400px;  
+  display: flex;
+  flex-direction: column;
+}
+
+.site-info {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 2em;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.site-description {
+  text-align: center;
+  color: #f6d200;
+  font-size: 1.2em;
+  margin-top: -.8;
+  font-style: italic;
+}
+
+.main-menu {
+  padding: 1em 1em;
+  color: #000;
+  background: #f6d200;
+}
+
+@media screen and (min-width: 1120px) {
+
+  .site-title {
+    font-size: 4em;
+  }
+
 }
