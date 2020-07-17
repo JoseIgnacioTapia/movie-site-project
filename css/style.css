@@ -27,7 +27,7 @@ img {
 }
 
 .sidebar-right {
-  background: #0000ff;
+  /* background: #ededed; */
   color: #fff;
 }
 
@@ -338,3 +338,44 @@ p {
   flex-basis: 380px;
 }
 
+/* Sidebar styles */
+.sidebar-right {
+  padding: 2em;
+  color: #000;
+}
+
+.widget {
+  background-color: #fff;
+  margin-bottom: 2em;
+}
+
+.widget-content {
+  padding: .5em 2em;
+}
+
+.sidebar-right ul {
+  list-style-type: none;
+  padding-left: 1em;
+}
+
+.sidebar-right ul a {
+  display: block;
+  padding-bottom: .4em;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 810px) and (max-width: 1120px) {
+
+  .sidebar-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .widget {
+    flex-basis: 48.8%;
+  }
+
+}
